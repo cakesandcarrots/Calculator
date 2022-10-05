@@ -1,0 +1,81 @@
+.box {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: green;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.calcbody {
+    border-radius: 10px;
+    display: flex;
+    height: 500px;
+    width: 400px;
+    background-color: red;
+    flex-direction: column;
+}
+
+.display {
+    border-radius: 10px;
+    background-color: aqua;
+    width: 400px;
+    height: 100px;
+
+}
+
+.extras {
+    margin-top: auto;
+    width: 400px;
+    height: 100px;
+    background-color: blueviolet;
+    border-radius: 10px;
+
+}
+
+.buttonlen {
+    height: 300px;
+    width: 300px;
+    font-size: 0;
+}
+
+.button {
+    font-size: medium;
+    padding: 40px;
+    padding-bottom: 30px;
+    margin: 2px;
+}
+
+.buttonsize {
+    height: 100px;
+}
+
+.buttonlower {
+
+    margin: 2px;
+    margin-left: 4px;
+    font-size: medium;
+    padding: 32px;
+}
+
+.buttonlowerac {
+    margin-right: 0px;
+    margin-left: 2px;
+    font-size: medium;
+    padding: 32px;
+    padding-left: 82px;
+    padding-right: 82px;
+}
+
+.zero {
+    margin: 2px;
+    margin-left: 0px;
+    font-size: medium;
+    padding: 32px;
+    padding-left: 39px;
+    padding-right: 39px;
+
+
+}
