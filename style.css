@@ -30,8 +30,10 @@
     margin-top: auto;
     width: 400px;
     height: 100px;
-    background-color: blueviolet;
+    background-color: yellow;
     border-radius: 10px;
+    margin-left: 5px;
+
 
 }
 
@@ -49,7 +51,9 @@
 }
 
 .buttonsize {
+    margin-left: 5px;
     height: 100px;
+    width: 400px;
 }
 
 .buttonlower {
@@ -65,8 +69,8 @@
     margin-left: 2px;
     font-size: medium;
     padding: 32px;
-    padding-left: 82px;
-    padding-right: 82px;
+    padding-left: 81px;
+    padding-right: 81px;
 }
 
 .zero {
@@ -74,8 +78,27 @@
     margin-left: 0px;
     font-size: medium;
     padding: 32px;
-    padding-left: 39px;
-    padding-right: 39px;
+    padding-left: 38px;
+    padding-right: 40px;
 
+
+}
+
+.x {
+    font-size: medium;
+    padding: 40px;
+    padding-bottom: 30px;
+    margin: 2px;
+    padding-right: 36px;
+
+}
+
+.plus {
+    margin: 2px;
+    margin-left: 0px;
+    font-size: medium;
+    padding: 32px;
+    padding-left: 38px;
+    padding-right: 35px;
 
 }
