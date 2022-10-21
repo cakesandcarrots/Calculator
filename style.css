@@ -18,7 +18,7 @@
     flex-direction: column;
 }
 
-.display {
+.screen {
     border-radius: 10px;
     background-color: aqua;
     width: 400px;
@@ -30,7 +30,6 @@
     margin-top: auto;
     width: 400px;
     height: 100px;
-    background-color: yellow;
     border-radius: 10px;
     margin-left: 5px;
 
@@ -64,13 +63,13 @@
     padding: 32px;
 }
 
-.buttonlowerac {
+.ac {
     margin-right: 0px;
     margin-left: 2px;
     font-size: medium;
     padding: 32px;
-    padding-left: 81px;
-    padding-right: 81px;
+    padding-left: 33px;
+    padding-right: 30px;
 }
 
 .zero {
@@ -78,8 +77,9 @@
     margin-left: 0px;
     font-size: medium;
     padding: 32px;
-    padding-left: 38px;
+    padding-left: 39px;
     padding-right: 40px;
+    margin-right: 0px;
 
 
 }
@@ -93,12 +93,42 @@
 
 }
 
+.equal {
+    margin: 2px;
+    margin-left: 0px;
+    font-size: medium;
+    padding: 32px;
+    padding-left: 39px;
+    padding-right: 40px;
+    margin-right: 0px;
+
+}
+
 .plus {
     margin: 2px;
     margin-left: 0px;
     font-size: medium;
     padding: 32px;
-    padding-left: 38px;
-    padding-right: 35px;
+    padding-left: 37px;
+    padding-right: 37px;
+}
+
+.display {
+
+    background-color: brown;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+    height: 90px;
+    width: 390px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.text {
+    align-self: flex-end;
+    font-family: sans-serif;
+    font-size: x-large;
 
 }
