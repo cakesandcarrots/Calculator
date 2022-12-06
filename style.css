@@ -45,6 +45,7 @@
 }
 
 .button {
+    background-color: aquamarine;
     font-size: medium;
     padding: 40px;
     padding-bottom: 30px;
@@ -66,6 +67,7 @@
 }
 
 .ac {
+    background-color: lightseagreen;
     margin-right: 0px;
     margin-left: 2px;
     font-size: medium;
@@ -75,6 +77,7 @@
 }
 
 .zero {
+    background-color: aquamarine;
     margin: 2px;
     margin-left: 0px;
     font-size: medium;
@@ -87,6 +90,7 @@
 }
 
 .x {
+    background-color: aquamarine;
     font-size: medium;
     padding: 40px;
     padding-bottom: 30px;
@@ -96,6 +100,7 @@
 }
 
 .equal {
+    background-color: aquamarine;
     margin: 2px;
     margin-left: 0px;
     font-size: medium;
@@ -107,6 +112,7 @@
 }
 
 .plus {
+    background-color: aquamarine;
     margin: 2px;
     margin-left: 0px;
     font-size: medium;
@@ -128,16 +134,22 @@
 }
 
 .text {
+    color: lemonchiffon;
     align-self: flex-end;
     font-family: sans-serif;
     font-size: x-large;
 
 }
 
+.ac:hover {
+    background-color: darkorange;
+}
+
+
 .button:hover,
 .x:hover,
 .plus:hover,
 .zero:hover,
 .equal:hover {
-    background-color: black;
+    background-color: rgb(238, 238, 93);
 }

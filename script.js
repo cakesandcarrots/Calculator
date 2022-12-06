@@ -53,6 +53,7 @@ for (let i = 0; i < size; i++) {
                     else {
                         parseFloat(Number1);
                         Number1 = Number1 / val;
+                        Number1 = Math.round((Number1 + Number.EPSILON) * 100) / 100
                         displayValues.textContent = Number1;
                     }
                     break;
