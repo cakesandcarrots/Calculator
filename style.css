@@ -21,6 +21,8 @@
 .screen {
     border-radius: 10px;
     background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
     width: 400px;
     height: 100px;
 
@@ -116,7 +118,6 @@
 .display {
 
     background-color: brown;
-    flex-direction: column;
     display: flex;
     justify-content: flex-end;
     height: 90px;
@@ -131,4 +132,12 @@
     font-family: sans-serif;
     font-size: x-large;
 
+}
+
+.button:hover,
+.x:hover,
+.plus:hover,
+.zero:hover,
+.equal:hover {
+    background-color: black;
 }
